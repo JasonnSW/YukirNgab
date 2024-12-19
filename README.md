@@ -1,8 +1,37 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# YukirNgab
 
-Currently, two official plugins are available:
+YukirNgab is a React application built with Vite to help users find parking spots in Universitas Brawijaya (UB) using a real-time parking map and QR code scanning for vehicle entry.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) as a package manager
+- [Git](https://git-scm.com/) for cloning the repository
+
+## Getting Started
+
+Follow these steps to set up and run the project:
+
+### 1. Clone the repository
+
+Clone the repository using the following command:
+
+```bash
+git clone git@github.com:JasonnSW/YukirNgab.git
+cd YukirNgab
+
+2. Install dependencies
+Install the required dependencies by running:
+npm install
+
+Or, if you prefer Yarn:
+yarn install
+
+3. Start the development server
+Start the Vite development server with the following command:
+
+npm run dev
