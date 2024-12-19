@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nama": "Gedung G",
+    "foto": "../src/assets/GedungG.jpg",
+    "deskripsi": "Fasilitas yang ada di Fakultas Ilmu Komputer (FILKOM) Universitas Brawijaya (UB) untuk mendukung pembelajaran di luar kelas."
+  },
+  {
+    "id": 2,
+    "nama": "EduTech",
+    "foto": "../src/assets/edutech.jpg",
+    "deskripsi": "Fasilitas yang ada di Fakultas Ilmu Komputer (FILKOM) Universitas Brawijaya (UB) untuk mendukung pembelajaran di luar kelas"
+  }
+]
