@@ -24,17 +24,20 @@ Clone the repository using the following command:
 git clone git@github.com:JasonnSW/YukirNgab.git
 cd YukirNgab
 ```
-2. Install dependencies
+### 2. Install dependencies
+
 Install the required dependencies by running:
 ```bash
 npm install
 ```
-```bash
 Or, if you prefer Yarn:
+```bash
 yarn install
 ```
-3. Start the development server
+### 3. Start the development server
+
 Start the Vite development server with the following command:
+
 ```bash
 npm run dev
 ```
