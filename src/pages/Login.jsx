@@ -9,7 +9,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const registeredUser = JSON.parse(localStorage.getItem("registerUser"));
-    console.log(registeredUser); 
+    console.log(registeredUser);
     if (!registeredUser) {
       alert("User not found");
       return;
@@ -31,7 +31,7 @@ const Login = () => {
     <div className="flex items-center justify-center h-screen bg-slate-200">
       <div className="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-xl dark:bg-gray-800">
         <div className="flex justify-center mx-auto">
-          <h1 className="text-4xl font-bold text-gray-700">YukirNgab</h1>
+          <h1 className="text-4xl font-bold text-slate-200">YukirNgab</h1>
         </div>
 
         <form onSubmit={handleSubmit} className="mt-6">
@@ -110,7 +110,7 @@ const Login = () => {
 
         <p className="mt-8 text-xs font-light text-center text-gray-400">
           {" "}
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link
             to={"/register"}
             className="font-medium text-gray-700 dark:text-gray-200 hover:underline"
