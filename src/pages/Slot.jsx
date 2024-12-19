@@ -180,7 +180,7 @@ const Slot = () => {
   return (
     <>
       <Navbar />
-      <div className="pt-12 bg-slate-200">
+      <div className="pt-12 bg-slate-200 pb-12">
         <h1 className="text-2xl font-bold text-center mb-4">
           Pilih Slot Parkir di {nama}
         </h1>
